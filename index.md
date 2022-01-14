@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/YoungH-2001/module2-solution/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YoungH-2001/module2-solution/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment Solution for Module 2</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            #container{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #container > div{
+                background-color: springgreen;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 385px;
+            }
+            p{
+                position:relative;
+                left: 275px;
+                bottom: 40px;
+                background-color: blue;
+                margin: 20px;
+                padding: 20px;
+                width: 70px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <div id="container">
+            <div><p>Intentions</p>
+                Picture perfect, you don't need no filter Gorgeous, 
+                make 'em drop dead, you a killer
+                Shower you with all my attention
+                Yeah, these are my only intentions
+                Stay in the kitchen cookin' up, got your own bread
+                Heart full of equity, you're an asset
+                Make sure that you don't need no mentions
+                Yeah, these are my only intentions
+            </div>
+            <div><p>Intentions</p>
+                Picture perfect, you don't need no filter Gorgeous, 
+                make 'em drop dead, you a killer
+                Shower you with all my attention
+                Yeah, these are my only intentions
+                Stay in the kitchen cookin' up, got your own bread
+                Heart full of equity, you're an asset
+                Make sure that you don't need no mentions
+                Yeah, these are my only intentions
+            </div>
+            <div><p>Intentions</p>
+                Picture perfect, you don't need no filter Gorgeous, 
+                make 'em drop dead, you a killer
+                Shower you with all my attention
+                Yeah, these are my only intentions
+                Stay in the kitchen cookin' up, got your own bread
+                Heart full of equity, you're an asset
+                Make sure that you don't need no mentions
+                Yeah, these are my only intentions
+            </div>
+        </div>
+    </body>
+</html>
